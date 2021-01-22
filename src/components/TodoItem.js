@@ -8,11 +8,6 @@ class TodoItem extends Component{
         return {
             textDecoration: this.props.todo.completed ? 'line-through' : "none"
         }
-
-    //    if(this.props.todo.completed){
-    //       return {textDecoration: 'line-through' }
-    //    } else
-    //    return {textDecoration: 'none'}
     }
 
 

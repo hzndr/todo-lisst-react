@@ -8,13 +8,14 @@ class AddTodo extends Component {
 
     onSubmit = (e) =>{
         e.preventDefault();
-        this.props.addTodo(this.state.title);
+        if(this.state.title !== ""){
+        this.props.addTodo(this.state.title);}
         this.setState({title: ""});
     }
 
     onChange = (e) => {
         this.setState({title: e.target.value})
-        //this.setState({e.target.name : e.target.value}) -> when you have multiple inputs (name, email etc.)
+    
     }
 
     render() {
