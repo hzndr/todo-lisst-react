@@ -61,7 +61,6 @@ a:hover {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   color: var(--lightYellow);
-  color: var(--yellow);
 }
 
 .counter > span {
