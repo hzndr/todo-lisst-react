@@ -1,8 +1,9 @@
-# Todo List [React]
-Todo List app built with React. All todos come from JSON Placeholder  
+# React Todo List
+Todo List app built with React, using React Router for navigation. All todos come from JSON Placeholder  
 
-<img src="https://github.com/hzndr/todo-list-react/blob/main/img/cover-img.png" alt="Cover Image" width="500"/>
+### [Demo](https://unruffled-mclean-78d41a.netlify.app/)
 
-### Technologies used:
-- React (React Router)
-- Custom CSS
+<!-- <img src="https://github.com/hzndr/todo-list-react/blob/main/img/cover-img.png" alt="Cover Image" width="500"/> -->
+
+
+
